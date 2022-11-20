@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  margin: 200px auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+p {
+  margin: 1.5rem 0;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+button {
+  margin: 1.5rem 0;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  cursor: pointer;
+}
+
+button.btn1 {
+  color: hsl(31deg, 77%, 52%);
+}
+
+button.btn2 {
+  color: hsl(184deg, 100%, 22%);
+}
+
+button.btn3 {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.wrapper {
+  background-color: hsl(31deg, 77%, 52%);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.wrapper .col-1 {
+  padding: 1.5rem;
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.wrapper .col-1 p {
+  margin: 1.5rem 0;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.wrapper .col-2 {
+  padding: 1.5rem;
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.wrapper .col-3 {
+  padding: 1.5rem;
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+button:hover {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  transition: 1s;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
