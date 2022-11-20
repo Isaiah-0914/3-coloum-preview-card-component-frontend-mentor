@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ solution ](https://your-solution-url.com)
+- Solution URL: [ solution ](https://www.frontendmentor.io/solutions/3-column-preview-card-component-OnSZna6GCH)
 - Live Site URL: [live site ](https://isaiah-0914.github.io/3-coloum-preview-card-component-frontend-mentor/)
 
 ## My process
